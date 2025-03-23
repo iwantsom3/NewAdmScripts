@@ -1,20 +1,21 @@
-/* General Styles */
+/* Night Mode Theme (True Black) */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #121212;
+    background-color: #000000; /* Pure Black */
     color: white;
     text-align: center;
     margin: 0;
     padding: 20px;
 }
 
+/* Centered Container */
 .container {
     max-width: 400px;
     margin: auto;
     padding: 20px;
-    background: #1e1e1e;
+    background: #121212; /* Dark Gray Box */
     border-radius: 15px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 /* Title */
@@ -23,10 +24,12 @@ h1 {
     font-weight: 600;
 }
 
-/* YouTube Thumbnail */
+/* YouTube Thumbnail (Fixed Alignment) */
 .video-thumbnail {
     position: relative;
     width: 100%;
+    max-width: 350px;
+    margin: auto;
     border-radius: 15px;
     overflow: hidden;
     margin-bottom: 15px;
@@ -42,6 +45,7 @@ h1 {
     transform: scale(1.05);
 }
 
+/* Overlay */
 .overlay {
     position: absolute;
     bottom: 10px;
@@ -60,7 +64,7 @@ h1 {
     opacity: 1;
 }
 
-/* Buttons */
+/* Buttons (Fixed Alignment & Hover Effect) */
 button {
     background: #6b5b95;
     color: white;
