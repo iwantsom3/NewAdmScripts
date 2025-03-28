@@ -20,3 +20,8 @@ document.querySelector(".auto-btn").addEventListener("click", function() {
 document.querySelector(".high-tier-btn").addEventListener("click", function() {
     alert("🐉 Adopt Me High Tier Pets:\n- Shadow Dragon\n- Frost Dragon\n- Bat Dragon\n- Giraffe\n- Owl\n- Crow\n- Mega Unicorn\n- Parrot\n- Blazing Lion\n- Mega Turtle\n- Evil Unicorn\n- Mega Kangaroo\n- Diamond Griffin\n- Arctic Reindeer\n- Golden Penguin\n- Diamond Dragon\n- Giraffe\n- Owl\n- Crow\n- Etc");
 });
+
+// Best Executor (Mobile) Button (Redirects to Delta Exploits)
+document.querySelector(".executor-btn").addEventListener("click", function() {
+    window.open("https://deltaexploits.gg", "_blank");
+});
