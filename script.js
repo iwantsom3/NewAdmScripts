@@ -10,7 +10,7 @@ document.querySelector(".copy-btn").addEventListener("click", function() {
 // Auto Button (Copies Auto Script)
 document.querySelector(".auto-btn").addEventListener("click", function() {
     navigator.clipboard.writeText('loadstring(game:HttpGet("https://raw.githubusercontent.com/iwantsom3/script/refs/heads/main/Autofarm%20ice"))()').then(() => {
-        alert("✅ AutoFarm Ice Script copied to clipboard!");
+        alert("✅ AutoFarm 🌸 Script copied to clipboard!");
     }).catch(() => {
         prompt("❌ Clipboard not supported. Manually copy:", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/iwantsom3/script/refs/heads/main/Autofarm%20ice"))()');
     });
