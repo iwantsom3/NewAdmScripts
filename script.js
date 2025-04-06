@@ -18,7 +18,7 @@ document.querySelector(".auto-btn").addEventListener("click", function() {
 
 // High Tier Pets Button (Shows List of Pets)
 document.querySelector(".high-tier-btn").addEventListener("click", function() {
-    alert("🐉 Adopt Me High Tier Pets:\n- Shadow Dragon\n- Frost Dragon\n- Bat Dragon\n- Giraffe\n- Owl\n- Mega Unicorn\n- Parrot\n- Blazing Lion\n- Mega Turtle\n- Evil Unicorn\n- Mega Kangaroo\n- Strawberry Batdragon\n- Arctic Reindeer\n- Neon Blue dog\n- Mega Frost fury\n- Giraffe\n- Owl\n- Crow\n- Etc");
+    alert("🐾 Adopt Me Supported Pets:\n- Shadow Dragon\n- Frost Dragon\n- Bat Dragon\n- Giraffe\n- Owl\n- Turle\n- Parrot\n- Blazing Lion\n- Crow\n- Evil Unicorn\n- Kangaroo\n- Strawberry Batdragon\n- Arctic Reindeer\n- Cow\n- Frost fury\n- Dalmatian\n- Hedgehog\n- Mega Dog\n- Etc");
 });
 
 // Best Executor (Mobile) Button (Redirects to Delta Exploits)
